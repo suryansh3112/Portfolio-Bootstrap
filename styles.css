@@ -1,0 +1,68 @@
+body {
+  background-color: #eeeeee;
+  /* padding: 20px; */
+
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#skills h2 {
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 1rem;
+}
+
+.edu-info {
+  padding-left: 2rem;
+}
+
+#certification,
+#intro h2,
+#intro h6 {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.education,
+.projects,
+.side-bar {
+  background-color: #fff;
+  box-shadow: 2px 2px 5px 2px #afb0b1;
+
+  margin: 16px 0;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.icon {
+  color: #1fab89;
+}
+
+#skills h5 {
+  color: #0f3558;
+}
+
+.skill-col {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.skill-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.spacing {
+  padding: 10px;
+  text-align: center;
+}
+
+.size {
+  height: 50px;
+  width: 50px;
+}
+/* https://colorhunt.co/palette/2763 */
