@@ -1,7 +1,5 @@
 body {
   background-color: #eeeeee;
-  /* padding: 20px; */
-
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -26,7 +24,8 @@ h2 {
 
 .education,
 .projects,
-.side-bar {
+.side-bar,
+.internship {
   background-color: #fff;
   box-shadow: 2px 2px 5px 2px #afb0b1;
 
@@ -36,7 +35,7 @@ h2 {
 }
 
 .icon {
-  color: #1fab89;
+  color: #1d866c;
 }
 
 #skills h5 {
@@ -66,3 +65,43 @@ h2 {
   width: 50px;
 }
 /* https://colorhunt.co/palette/2763 */
+
+.date {
+  color: #1d866c;
+  font-size: 1.1rem;
+}
+
+.date-icon {
+  margin-right: 10px;
+}
+
+.box {
+  background-color: #1d866c;
+  color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* ---------------------------FOOTER------------------------------ */
+
+.copyright {
+  color: #eeeeee;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  color: #dbdada;
+  margin: 10px;
+}
+
+#footer i:hover {
+  color: #fff;
+}
+
+#footer {
+  background-color: #1d866c;
+  padding: 30px 0 10px;
+  text-align: center;
+  margin-top: 2rem;
+}
